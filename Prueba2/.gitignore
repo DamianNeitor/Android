@@ -1,0 +1,15 @@
+*.iml
+.gradle
+/local.properties
+/Prueba2/.idea/caches
+/Prueba2/.idea/libraries
+/Prueba2/.idea/modules.xml
+/Prueba2/.idea/workspace.xml
+/Prueba2/.idea/navEditor.xml
+/Prueba2/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
