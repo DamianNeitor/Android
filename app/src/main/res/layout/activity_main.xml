@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/spinner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitutlo"
+        android:layout_width="297dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="32dp"
+        android:lineSpacingExtra="8sp"
+        android:text="Envio De Correo Electronico"
+        android:textAlignment="center"
+        android:textColor="#DD0606"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="419dp"
+        android:layout_height="699dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitutlo">
+
+        <TextView
+            android:id="@+id/txtDestinatario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="correo destinatario"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/lblCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/txtASUNTO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Asunto"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/lblAsunto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/txtTexto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="para ingresar texto anteriormente citado"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/lblTextoAnterior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/txtCopiaa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="en copia a"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/rbOpc1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="gerencia general"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/rbRH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recursos humanos"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/rbAdmin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="administrativo"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:text="desea recibir unas copis su correo?"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/chxDeseo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deseo recibir una copia" />
+
+            <TextView
+                android:id="@+id/txtAdjunto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seleccion adjunto"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="46dp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="ver"
+                android:text="previsualisar mensaje"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
