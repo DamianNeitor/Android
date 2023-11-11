@@ -81,6 +81,13 @@
             android:text="en copia a"
             android:textSize="24sp" />
 
+        <EditText
+            android:id="@+id/lblCopia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -135,7 +142,6 @@
                 android:id="@+id/button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="ver"
                 android:text="previsualisar mensaje"
                 android:textSize="20sp" />
         </RadioGroup>

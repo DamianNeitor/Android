@@ -76,21 +76,10 @@
             android:id="@+id/textView24"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="desea recibir notificaciones" />
-
-        <TextView
-            android:id="@+id/txtBlanco4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <TextView
-            android:id="@+id/txtArchivo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:text="archivo adjunto" />
 
         <TextView
-            android:id="@+id/txtAdjuntoo"
+            android:id="@+id/txtBlanco4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
